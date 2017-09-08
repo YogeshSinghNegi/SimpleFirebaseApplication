@@ -30,7 +30,7 @@ class MyFirstVC: UIViewController {
     @IBOutlet weak var messageDisplayTableView: UITableView!
     
 //=============================================================//
-//MARK: View Methods
+//MARK: View Method
 //=============================================================//
     
     override func viewDidLoad() {

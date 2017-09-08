@@ -44,7 +44,7 @@ class ComposeVC: UIViewController {
 
     @IBAction func deleteMessageBtnTapped(_ sender: UIBarButtonItem) {
         
-        //Going back to the privious View Controller
+        //Going back to the initial View Controller
         presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
@@ -55,7 +55,7 @@ class ComposeVC: UIViewController {
             ref.child("Posts").childByAutoId().setValue(messageTextView.text)
         }
         
-        //Going back to the privious View Controller
+        //Going back to the initial View Controller
         presentingViewController?.dismiss(animated: true, completion: nil)
     }
 
